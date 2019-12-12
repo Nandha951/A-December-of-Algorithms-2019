@@ -306,24 +306,41 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - Return a Directions json file with your personalized message, distance and some direction.
   
   - **Example**
-       ```
-       sample output:
+       - **JaSON.json(src/res):**
+       ```json
        {
-        "directions": [
-          {
-            "message": "Meet at the destination point",
-            "distance": 21.17,
-            "direction": "N"
-          }
+  		"markers": 
+		[
+			{
+				"name": "start",
+				"location": [25.1212, 55.1535],
+			},
+			{
+				"name": "destination",
+				"location": [25.2285, 55.3273]
+			}
+  		]
+       }
+       ```
+       - **sample output:**
+       ```json
+       {
+        "directions": 
+		[
+			  {
+			    "message": "Meet at the destination point",
+			    "distance": 21.17,
+			    "direction": "N"
+			  }
         ]
-      }
+       }
        ```
   - **Resources**
     - [Java JSON parsing](https://www.mkyong.com/java/json-simple-example-read-and-write-json/)
     - [Python JSON parsing](https://docs.python.org/3/library/json.html)
     - [C++ JSON parsing](https://nlohmann.github.io/json/)
     - [Calculate distance](https://stackoverflow.com/questions/365826/calculate-distance-between-2-gps-coordinates)
-  - **Note**
+  - **Note**  
     JSON format can differ and values like message and direction are totally upto you.
 
 ### **December ? - Greyscale**
