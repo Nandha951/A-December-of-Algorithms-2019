@@ -24,7 +24,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 8 - Cheating Probability**](#december-8---cheating-probability)
   - [**December 9 - One to One?**](#december-9---one-to-one)
   - [**December 10 - Count The Cookies**](#december-10---count-the-cookies)
-  - [**December ? - Show JaSON the way**](#december-?---show-jason-the-way)
+  - [**December 12 - Show JaSON the way**](#december-12---show-jason-the-way)
   - [**FAQ**](#faq)
 
 
@@ -298,7 +298,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [Div Mod in C & C++](https://www.cprogramming.com/tutorial/modulus.html)
     - [Div Mod in Java](http://www.cs.ukzn.ac.za/~hughm/java/intro/week2/21.html)
     
-### **December ? - Show JaSON the way**
+### **December 12 - Show JaSON the way**
   - **Problem** 
   	- Jason is stranded in a desert.His phone's battery is going to die out and all he has left is a compass.
     - Parse the JaSON.json(in src/res) file and get the latitude and logitude values of the current and destination location.
