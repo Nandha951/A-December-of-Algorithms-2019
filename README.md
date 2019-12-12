@@ -25,6 +25,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 9 - One to One?**](#december-9---one-to-one)
   - [**December 10 - Count The Cookies**](#december-10---count-the-cookies)
   - [**December 12 - Show JaSON the way**](#december-12---show-jason-the-way)
+  - [**December 13 - Toggling Switches**](#december-13---toggling-switches)
   - [**FAQ**](#faq)
 
 
@@ -369,7 +370,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [Python opencv](https://docs.opencv.org/master/d0/de3/tutorial_py_intro.html)
     - [C++ opencv](https://www.opencv-srf.com/p/introduction.html)
 
-### **December ? - Toggling Switches**
+### **December 13 - Toggling Switches**
   - **Problem**  
     - There are n switches labeled from 1 to n,to turn on/off n bulbs.
     - At start all the bulbs are switched off
@@ -377,14 +378,24 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - At second round, every second switch is turned 'off'
     - At third round, every third switch is toggled on/off(on->off and off->on)
     - This goes on and during nth round, every nth switch is toggled on/off.
-    - How many switches are in the 'on' state.
+    - The task is to write **O(n) and constant time** functions to find how many switches are in the 'on' state(two separate functions).
     - [optional] Find the switch nos. that are in the 'on' state after n such iterations.
 
   - **Example**
+
        ```
-       Enter no of switches: 200
-       No of switches in the 'on' state at the end: 14
+       Enter no of switches: 5
+       
+       Iter 0: 1->off 2->off 3->off 4->off 5->off
+       Iter 1: 1->on 2->on 3->on 4->on 5->on
+       Iter 2: 1->on 2->off 3->on 4->off 5->on
+       Iter 3: 1->on 2->off 3->off 4->off 5->on
+       Iter 4: 1->on 2->off 3->off 4->on 5->on
+	   Iter 5: 1->on 2->off 3->off 4->on 5->off
+
+       No of switches in the 'on' state at the end: 2
        ```
+
   - **Resources**
     - [Java math module](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html)
     - [Python math module](https://docs.python.org/3/library/math.html)
